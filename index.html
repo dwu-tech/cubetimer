@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wu Cube Timer</title>
+
+    <link rel = "stylesheet" href = "styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script type = "text/javascript" src = "script.js"></script>
+    <script type = "text/javascript" src = "scramble.js"></script>
+</head>
+<header>
+    Wu Timer
+</header>
+ 
+<body onload="scrambleGen()">
+		<br>
+		<br>
+		<br>
+		<button id="sb" type="submit" onclick="scrambleGen()">Scramble</button>
+		<div id="scramble">
+			
+		</div>
+
+    
+    <div class="container">
+        <div id="display">
+            00:00.00
+        </div>
+
+        
+
+        <div class="instruct"> Space Bar to start timer 
+            <ul></ul>
+        </div>
+   
+
+    </div>
+    <div class="container2">
+
+        <div class="solves">Solves
+               <ol id = 'theList'>
+                        </ol>
+        </div>
+
+        <div class = "A05"> Statistics
+            <ul id= 'Ao5'>
+               <li id = "AO5">Current Average of 5:</li>
+          </ul>  
+        </div>   
+    </div>      
+    
+</body>
+<footer>
+        © 2020 Darren Wu.
+</footer>
+</html>
